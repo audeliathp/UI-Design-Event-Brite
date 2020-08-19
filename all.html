@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Kit SO Brite</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!--               NAV               -->
+
+  <header>
+    <h2>Navbar</h2>
+
+      <nav class="navbar bg-primary navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">SO BRITE</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Créer un événement</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">S'inscrire / Se connecter</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">S'inscrire</a>
+                <a class="dropdown-item" href="#">Se connecter</a>
+                <a class="dropdown-item" href="#">Mon profil</a>
+                <a class="dropdown-item" href="#">Déconnexion</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 rounded" type="text" placeholder="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+  </header>
+
+  <div class="btn btn-outline-primary">
+    <a href="./index.html">Revenir au menu</a>
+  </div>
+
+
+
+<!--              BANNERS               -->
+
+  <h2>Fullscreen banner</h2>
+
+    <div class="banner fullscreen bg-toasts">
+      <h1>CREEZ VOTRE EVENT SANS PLUS TARDER</h1>
+      <h2>Pour proposer un nouvel event</h2>
+      <div class="formsubmit">
+        <button type="submit" href="#" class="btn btn-primary authform">Cliquez ici</button>
+      </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <h2>Small banner</h2>
+
+    <div class="banner responsive bg-concert">
+      <h1>DEVENEZ BRITERS</h1>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <!--             FORMS              -->
+
+    <h2 class="titleauthpage">Inscription / Connexion</h2>
+
+    <form>
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="email">Adresse email :</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Renseignez votre adresse email ici">
+        </div>
+        <div class="form-group">
+          <label for="password">Mot de passe :</label>
+          <input type="password" class="form-control" id="password" placeholder="Renseignez votre mot de passe ici">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="renemberme">
+          <label class="form-check-label" for="renemberme">Rester connecté</label>
+        </div>
+        <div class="formsubmit">
+          <button type="submit" href="#" class="btn btn-primary authform">Valider</button>
+        </div>
+        <div class="separateformlink">
+          <a class="formlink" href="#">Se connecter</a>
+        </div>
+        <div class="separateformlink">
+          <a class="formlink" href="#">Vous avez oublié votre mot de passe ?</a>
+        </div>
+      </form>
+    </div> 
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+<!--               CARDS              -->
+
+    <h2>PARTICIPANTS LIST</h2>
+
+    <br>
+
+    <div class="list-group-item list-group-item-action flex-column align-items-start cards-users">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">NOM DU PARTICIPANT</h5>
+        <button type="button" href="#" class="btn btn-primary">Voir le profil</button>
+      </div>
+      <p class="mb-1">Description du participant : Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Son adresse email : participant@email</small>
+    </div>
+    <div href="#" class="list-group-item list-group-item-action flex-column align-items-start cards-users">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">NOM DU PARTICIPANT</h5>
+        <button type="button" href="#" class="btn btn-primary">Voir le profil</button>
+      </div>
+      <p class="mb-1">Description du participant : Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Son adresse email : participant@email</small>
+    </div>
+    <div href="#" class="list-group-item list-group-item-action flex-column align-items-start cards-users">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">NOM DU PARTICIPANT</h5>
+        <button type="button" href="#" class="btn btn-primary">Voir le profil</button>
+      </div>
+      <p class="mb-1">Description du participant : Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Son adresse email : participant@email</small>
+    </div>
+
+    <br>
+    <hr>
+
+
+    
+    <h2>CITY CARD</h2>
+    
+    <br>
+
+    <div class="citycontainer">
+      <div class="card border-dark mb-3" style="max-width: 50rem;">
+        <div class="card-header">NOM DE LA VILLE</div>
+        <div class="card-body">
+          <p class="card-text">Information sur la ville : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <h2>CITIES LIST</h2>
+
+    <br>
+
+    <div class="list-group-item list-group-item-action flex-column align-items-start cards-users">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">NOM DE LA VILLE</h5>
+        <button type="button" href="#" class="btn btn-primary">Voir les events dans cette ville</button>
+      </div>
+      <p class="mb-1">Description de la ville : Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Code postal : 00000</small>
+    </div>
+    <div href="#" class="list-group-item list-group-item-action flex-column align-items-start cards-users">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">NOM DE LA VILLE</h5>
+        <button type="button" href="#" class="btn btn-primary">Voir les events dans cette ville</button>
+      </div>
+      <p class="mb-1">Description de la ville : Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Code postal : 00000</small>
+    </div>
+    <div href="#" class="list-group-item list-group-item-action flex-column align-items-start cards-users">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">NOM DE LA VILLE</h5>
+        <button type="button" href="#" class="btn btn-primary">Voir les events dans cette ville</button>
+      </div>
+      <p class="mb-1">Description de la ville : Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Code postal : 00000</small>
+    </div>
+
+
+
+
+<!--               COMMENTS                -->
+
+
+    <div class="commentcontainer">
+      <h1>TOUS LES COMMENTAIRES</h1>
+        <div class="comment list-group">
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="commentbox container">
+              <div class="avatarcontainer">
+                <img class="commentavatarpicture" src="" alt="Avatar">
+              </div>
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Nom du User</h5>
+                  <small class="text-info">Posté le jj/mm/aaaa à hh:mm</small>
+                </div>
+                <div class="paragraphdiv">
+                  <p>Contenu du commentaire Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore a vero asperiores, distinctio possimus cupiditate consectetur optio. Quis saepe autem temporibus, odit pariatur atque doloribus voluptate explicabo possimus vitae!</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="commentbox container">
+              <div class="avatarcontainer">
+                <img class="commentavatarpicture" src="" alt="Avatar">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Nom du User</h5>
+                  <small class="text-info">Posté le jj/mm/aaaa à hh:mm</small>
+                </div>
+                <div class="paragraphdiv">
+                  <p>Contenu du commentaire Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore a vero asperiores, distinctio possimus cupiditate consectetur optio. Quis saepe autem temporibus, odit pariatur atque doloribus voluptate explicabo possimus vitae!</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="commentbox container">
+              <div class="avatarcontainer">
+                <img class="commentavatarpicture" src="" alt="Avatar">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Nom du User</h5>
+                  <small class="text-info">Posté le jj/mm/aaaa à hh:mm</small>
+                </div>
+                <div class="paragraphdiv">
+                  <p>Contenu du commentaire Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore a vero asperiores, distinctio possimus cupiditate consectetur optio. Quis saepe autem temporibus, odit pariatur atque doloribus voluptate explicabo possimus vitae!</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+  
+        <br>
+        <hr>
+  
+  <h1>POSTER UN COMMENTAIRE</h1>
+  
+        <div class="commenttextarea form-group">
+          <label for="Textarea">Votre commentaire :</label>
+          <textarea class="form-control" id="Textarea" rows="3"></textarea>
+        </div>
+        <button type="submit" href="#" class="btn btn-primary">Commenter</button>
+  
+    <hr>
+    <br>
+
+
+    
+
+  </body>
+
+    
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
